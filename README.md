@@ -25,8 +25,8 @@ ColorTyper is an open-source interview project I completed for a game studio.
 ### 1. Ball Trajectory Calculation
 I think the hardest part of this project is to calculate the directional vector to throw a ball from random locations to one point.
 I had two approaches in mind: 
-- 1) Calculate the actual ball trajectory angle, directional vector, height, and velocity
-- 2) Simulate the ball movement with smooth animation curve
+- 1) Calculate the actual ball trajectory angle, directional vector, height, and velocity.
+- 2) Simulate the ball movement with smooth animation curve.
 After some research and prototypting, I decided to go with approach 1) because the physics movement gives a more natural result compared with animation.
 ```
     //Reference: https://en.wikipedia.org/wiki/Trajectory
