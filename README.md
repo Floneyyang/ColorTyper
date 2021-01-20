@@ -1,6 +1,6 @@
 # ColorTyper
 ## Overview
-ColorTyper is an interview project I completed for a game studio. 
+ColorTyper is an open-source interview project I completed for a game studio. 
 - In Color Typer, the player must select the color of the sphere that is shot towards them to gain points and stop the ball from hitting them (and losing).
 
 ## Project Specification
