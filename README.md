@@ -51,7 +51,7 @@ After some research and prototypting, I decided to go with approach 1) because t
 
 ### 2. Performance Optimization
 - Given the game loop, the player can only see a maximum of two balls on screen.
-- Therefore, I used only one ball with collider throughout the entire game because instantiating one ball per second is very expensive and not efficient. 
+- Therefore, I used only one ball with collider throughout the entire game because instantiating one ball per second is not cost efficient. 
 - Another ball mesh is reused as a death animation that only instantiate once when game started.
 
 ### 3. Serialization
