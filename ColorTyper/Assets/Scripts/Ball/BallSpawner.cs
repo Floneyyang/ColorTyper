@@ -41,7 +41,7 @@ public class BallSpawner : MonoBehaviour
         ballData.initialVelocity = 10f;
 
         string json = JsonUtility.ToJson(ballData);
-        File.WriteAllText(Application.dataPath + "/BallData.json", json);
+        File.WriteAllText(Application.persistentDataPath + "/BallData.json", json);
         
 
         player = GameObject.FindWithTag("Player").transform;
@@ -65,7 +65,7 @@ public class BallSpawner : MonoBehaviour
 
     void LoadBallDataFromJson()
     {
-        string json = File.ReadAllText(Application.dataPath + "/BallData.json");
+        string json = File.ReadAllText(Application.persistentDataPath + "/BallData.json");
         ballData = JsonUtility.FromJson<Ball>(json);
     }
 
